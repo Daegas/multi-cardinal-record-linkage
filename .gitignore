@@ -1,0 +1,22 @@
+# Ignore macOS Finder metadata
+.DS_Store
+Icon[^.]*
+
+.venv/
+.env
+
+
+/data/
+!/src/data/
+output/
+
+# Archivos generados por Python
+__pycache__/
+*.egg-info/
+*.py[cod]
+build/
+dist/
+
+.tmp/
+
+scripts/splink/test.py
